@@ -1,9 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import Hello from "./Components/Hello"
+// import Message from './Components/Message';
+// import Profile from './Components/Profile';
+import Counter from './Components/Counter';
+import Functioneventhandle from './Components/Functioneventhandle';
+import { Parent } from './Components/Parent';
 
 function App() {
   return (
     <div className="App">
+      {/* <Hello />
+      <Message messageContent = " Always remember to have the back of your fellow human."/>
+      <Profile name="Folayemi" lastName="Ogundeyin"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,7 +26,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <Functioneventhandle /> */}
+
+      <Parent/>
+      {/* <Counter /> */}
     </div>
   );
 }
